@@ -112,7 +112,7 @@ module.exports = {
 		'import/no-cycle': 'off',
 		'prettier/prettier': [
 			'error',
-			{},
+			{ endOfLine: 'auto' },
 			{
 				usePrettierrc: true,
 			},
